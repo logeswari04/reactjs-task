@@ -16,9 +16,9 @@ export default function Service() {
         <h1> Contact Us</h1>
 
       <form id="contact-form" onSubmit={handleSubmit}>
-          <label>Full Name</label>
+          <label htmlFor="name">Full Name</label>
           <input id="name" placeholder="Enter full name..." type="text" />
-          <label >Email</label>
+          <label  htmlFor="email">Email</label>
           <input id="email" placeholder="Enter email..." type="email" />
           <label htmlFor="message">Message</label>
           <textarea
@@ -36,3 +36,4 @@ export default function Service() {
   );
 
 }
+
