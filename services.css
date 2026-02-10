@@ -1,0 +1,68 @@
+.contact{
+  width:100%;
+  height:100vh;
+  display:flex;
+}
+
+/* Left image section */
+.contact img{
+  width:170%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* Right side form */
+.contact .rightSide{
+  width:40%;
+  height:90%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:40px;
+  background-color:white;
+  margin-left: 159px;
+}
+
+.contact .rightSide h1{
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  width:80%;
+}
+
+form label{
+  margin-top:10px;
+  font-weight:600;
+}
+
+form input,
+form textarea{
+  margin-top:5px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:16px;
+}
+
+form button{
+  margin-top:20px;
+  padding:12px;
+  border:none;
+  background-color:#ff6600;
+  color:white;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+form button:hover{
+  background-color:#e65c00;
+}
+
+
+ 
