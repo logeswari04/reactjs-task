@@ -17,12 +17,13 @@ export default function Service() {
 
       <form id="contact-form" onSubmit={handleSubmit}>
           <label>Full Name</label>
-          <input name="name" placeholder="Enter full name..." type="text" />
+          <input id="name" placeholder="Enter full name..." type="text" />
           <label >Email</label>
-          <input name="email" placeholder="Enter email..." type="email" />
+          <input id="email" placeholder="Enter email..." type="email" />
           <label htmlFor="message">Message</label>
           <textarea
             rows="6"
+            id="message"
             placeholder="Enter message..."
             name="message"
             required
@@ -33,4 +34,5 @@ export default function Service() {
     </div>
 
   );
+
 }
